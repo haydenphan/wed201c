@@ -105,6 +105,10 @@ p, h3, h4 {
     justify-content: center;
     align-items: center;
   }
+
+  #first-img-container > .col-md-7 > img {
+    width: 100%;
+  }
 }
 
 
