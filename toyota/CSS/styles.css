@@ -1,0 +1,173 @@
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.center-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.normal-padding-margin {
+  padding: 10px;
+  margin: 10px;
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#menu-container {
+  width: 20%;
+}
+
+#logo-container {
+  width: 10%;
+}
+
+#logo-container img{
+  width: 100%;
+}
+
+#search-bar-container {
+  width: 25%;
+  
+}
+
+#search-bar-container form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#search-bar-container input {
+  width: 50%;
+}
+
+#banner-registerform {
+  width: 100%;
+  height: 700px;
+  margin-top: 50px;
+}
+
+#banner {
+  width: 50%;
+  height: 100%;
+}
+
+#banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#register-form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#main-form {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+
+#main-form > div > .div-content{
+  display: grid;
+  grid-template-columns: 25% 60%;
+}
+
+#div-content-container {
+  width: 100%;
+}
+
+.div-content {
+  padding: 10px;
+  margin: 10px;
+}
+
+.div-content > textarea {
+  height: 100%;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 15px;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+}
+
+#best-seller-container, #accessories-container {
+  margin: 50px 0px;
+  height: 500px;
+}
+
+#best-seller-content {
+  width: 100%;
+}
+
+#best-seller-image {
+  width: 50%;
+}
+
+#best-seller-image img{
+  width: 70%;
+}
+
+#best-seller-p {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#best-seller-p p {
+  width: 70%
+}
+
+#accessories-container {
+  margin: 50px 0px;
+}
+
+#accessories-content {
+  width: 100%;
+  height: 70%;
+}
+
+#accessories-content img {
+  height: 100%;
+}
+
+#accessories-left, #accessories-right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  margin: 20px;
+}
+
+#accessories-left div, #accessories-right div {
+  margin: 0px 20px;
+}
+
+#footer-container {
+  background-color: #05A1C8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
